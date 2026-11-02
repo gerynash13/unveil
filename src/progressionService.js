@@ -64,7 +64,7 @@ export const BADGES = [
     {
         id: "wanderer",
         name: "放浪の剣士",
-        description: "５つの依頼を達成した",
+        description: "100つの依頼を達成した",
         emoji: "🗡️",
         condition: (s) => s.questsCompleted >= 100
     },

@@ -1,0 +1,289 @@
+Unveil tier analysis - 2000 m around 34.6901, 135.1956
+
+TIER SUMMARY  (1949 places after de-duplication, 228 unnamed)
+  ★     hidden      1451  (74.4%)
+  ★★    local        420  (21.5%)
+  ★★★   notable       21  ( 1.1%)
+  ★★★★  landmark      57  ( 2.9%)
+
+KIND x TIER  (does each kind of place land where you expect?)
+  kind                 total     1★     2★     3★     4★
+  restaurant             644    564     80      0      0
+  cafe                   243     49    193      1      0
+  pub                    120    116      4      0      0
+  convenience            114    114      0      0      0
+  memorial               101     97      3      0      1
+  artwork                 96     91      2      1      2
+  fast_food               93     91      2      0      0
+  bar                     80     60     20      0      0
+  memorial_minor          70     70      0      0      0
+  wayside_shrine          53     53      0      0      0
+  park                    45     12     25      2      6
+  garden                  43     41      1      0      1
+  attraction              29      0      7      9     13
+  bakery                  27      7     20      0      0
+  temple                  26      0     23      0      3
+  supermarket             24     23      1      0      0
+  place_of_worship        20     14      2      0      4
+  museum                  18      0      2      3     13
+  shrine                  18      0      7      1     10
+  community_centre        13     12      0      0      1
+  books                   11     11      0      0      0
+  viewpoint               10      7      1      1      1
+  ice_cream               10      5      5      0      0
+  playground               8      8      0      0      0
+  public_bath              7      0      7      0      0
+  theatre                  6      0      5      0      1
+  monument                 6      1      4      1      0
+  library                  3      0      1      1      1
+  cinema                   3      1      2      0      0
+  sports_centre            3      3      0      0      0
+  city_gate                1      0      1      0      0
+  aquarium                 1      0      0      1      0
+  gallery                  1      0      1      0      0
+  marketplace              1      1      0      0      0
+  archaeological_site      1      0      1      0      0
+
+TAG COVERAGE  (% of NAMED places in each kind that have the tag)
+  kind                 named   wikidata  wikipedia    name:en    website  opening_h   heritage   chain
+  restaurant             625         0%         0%        12%         4%        20%         0%      9%
+  cafe                   236         0%         0%        28%         6%        13%         0%     18%
+  pub                    119         0%         0%         4%         3%         3%         0%      7%
+  convenience            114         0%         0%        90%        15%        28%         0%     99%
+  fast_food               91         0%         0%        44%         2%        24%         0%     47%
+  bar                     76         0%         0%        21%        18%        11%         0%      1%
+  memorial                69         1%         1%         7%         1%         0%         0%      0%
+  memorial_minor          51         0%         0%         2%        10%         0%         0%      0%
+  artwork                 48         6%         4%        17%         2%         0%         0%      0%
+  park                    33        18%        18%        42%         9%         6%         0%      0%
+  attraction              29        48%        41%        62%         7%         0%         0%      0%
+  temple                  26        12%        12%         4%         0%         0%         0%      0%
+
+COVERAGE OF THE APP'S CURRENT QUERY  (nodes only, unanchored regex)
+  How many places of each kind would the app's present Overpass query find?
+  kind                  exist  found  missed
+  restaurant              625    614      11
+  cafe                    236    232       4
+  pub                     119    119       0
+  convenience             114    111       3
+  fast_food                91     90       1
+  bar                      76     74       2
+  memorial                 69     68       1
+  memorial_minor           51     51       0
+  artwork                  48     46       2
+  park                     33      1      32
+  attraction               29      2      27
+  temple                   26      0      26
+  bakery                   25     24       1
+  supermarket              24     20       4
+  wayside_shrine           24     11      13
+  place_of_worship         20      0      20
+  museum                   18     10       8
+  shrine                   18      0      18
+  community_centre         13      9       4
+  books                    11     11       0
+
+MARKERS PER SCREEN  (390x780 px phone, 300 random spots)
+  Counts BEFORE de-cluttering. Compare with your marker budget (12-15).
+  zoom 16: 1.96 m/px, screen ~ 766 x 1532 m
+      ★★   and up:  median    62   p90  167   max  200
+      ★★★  and up:  median     9   p90   17   max   24
+      ★★★★ and up:  median     7   p90   13   max   17
+  zoom 17: 0.98 m/px, screen ~ 383 x 766 m
+      ★★   and up:  median     9   p90   39   max   81
+      ★★★  and up:  median     1   p90    5   max   21
+      ★★★★ and up:  median     0   p90    5   max   11
+  zoom 18: 0.49 m/px, screen ~ 191 x 383 m
+      ★★   and up:  median     1   p90    8   max   25
+      ★★★  and up:  median     0   p90    1   max   13
+      ★★★★ and up:  median     0   p90    1   max    8
+
+MARKER BUDGET SIMULATION  (show only the top 15 places by score in view; ★ never shown)
+  'sparse' = the quietest 10% of spots, where the map risks looking EMPTY.
+  zoom 16: shown median  15 | sparse   7 | empty screens   0% | 3★+ share of shown  60%
+  zoom 17: shown median   9 | sparse   0 | empty screens  17% | 3★+ share of shown  17%
+  zoom 18: shown median   1 | sparse   0 | empty screens  42% | 3★+ share of shown   0%
+
+EXAMPLES PER TIER  (top 30 and bottom 30; the edges show where thresholds bite)
+
+★★★★ landmark  (57 named places)
+  highest:
+    87  park             メリケンパーク   [+30 wikidata, +20 wikipedia, +5 name:en, +5 start_date, +15 area>=100k m2]
+    87  museum           人と防災未来センター   [+30 wikidata, +20 wikipedia, +5 name:en, +5 website, +5 start_date, +2 opening_hours]
+    87  park             東遊園地   [+30 wikidata, +20 wikipedia, +5 name:en, +5 website, +5 start_date, +2 opening_hours, +8 area>=20k m2]
+    87  park             神戸震災復興記念公園   [+30 wikidata, +20 wikipedia, +5 name:en, +5 website, +15 area>=100k m2]
+    85  attraction       風見鶏の館   [+30 wikidata, +20 wikipedia, +5 name:en, +5 website, +5 start_date]
+    83  garden           相楽園   [+30 wikidata, +20 wikipedia, +5 name:en, +5 website, +8 area>=20k m2]
+    82  park             大倉山公園   [+30 wikidata, +20 wikipedia, +5 name:en, +15 area>=100k m2]
+    82  museum           神戸ドールミュージアム   [+30 wikidata, +20 wikipedia, +5 name:en, +5 website, +2 opening_hours]
+    80  attraction       南京町   [+30 wikidata, +20 wikipedia, +5 name:en, +5 website]
+    80  shrine           生田神社   [+30 wikidata, +20 wikipedia, +5 name:en, +5 website]
+    80  viewpoint        神戸ポートタワー   [+30 wikidata, +20 wikipedia, +5 name:en, +5 website, +5 start_date]
+    80  museum           竹中大工道具館   [+30 wikidata, +20 wikipedia, +5 name:en, +5 website]
+    77  park             なぎさ公園   [+30 wikidata, +20 wikipedia, +15 area>=100k m2]
+    77  museum           カワサキワールド   [+30 wikidata, +20 wikipedia, +5 name:en, +2 opening_hours]
+    77  museum           神戸海洋博物館   [+30 wikidata, +20 wikipedia, +5 name:en, +2 opening_hours]
+    75  museum           KOBEとんぼ玉ミュージアム   [+30 wikidata, +20 wikipedia, +5 website]
+    75  museum           イタリア館   [+30 wikidata, +20 wikipedia, +5 name:en]
+    75  attraction       ベンの家   [+30 wikidata, +20 wikipedia, +5 name:en]
+    75  park             ポートアイランド北公園   [+30 wikidata, +20 wikipedia, +5 name:en, +8 area>=20k m2]
+    75  attraction       ラインの館   [+30 wikidata, +20 wikipedia, +5 name:en]
+    75  shrine           八宮神社   [+30 wikidata, +20 wikipedia, +5 description]
+    75  temple           北向地蔵   [+30 wikidata, +20 wikipedia, +5 name:en]
+    75  shrine           北野天満神社   [+30 wikidata, +20 wikipedia, +5 name:en]
+    75  shrine           四宮神社   [+30 wikidata, +20 wikipedia, +5 name:en]
+    75  attraction       山手八番館   [+30 wikidata, +20 wikipedia, +5 name:en]
+    75  attraction       洋館長屋   [+30 wikidata, +20 wikipedia, +5 name:en]
+    75  shrine           湊川神社   [+30 wikidata, +20 wikipedia, +5 name:en]
+    75  museum           神戸らんぷミュージフム   [+30 wikidata, +20 wikipedia, +5 name:en]
+    75  attraction       神戸ハーバーランド   [+30 wikidata, +20 wikipedia, +5 name:en]
+    75  museum           神戸北野美術館   [+30 wikidata, +20 wikipedia, +5 name:en]
+  lowest:
+    55  attraction       英国館   [+30 wikidata, +5 name:en]
+    56  artwork          フィッシュ・ダンス   [+30 wikidata, +20 wikipedia]
+    58  place_of_worship 関帝廟   [+30 wikidata, +20 wikipedia]
+    58  place_of_worship 日本基督教団神戸栄光教会   [+30 wikidata, +20 wikipedia]
+    58  community_centre こべっこランド   [+30 wikidata, +20 wikipedia, +5 name:en]
+    61  artwork          W・Jモラエス翁像   [+30 wikidata, +20 wikipedia, +5 description]
+    63  place_of_worship 神戸聖ミカエル教会   [+30 wikidata, +20 wikipedia, +5 website]
+    63  place_of_worship 日本基督教団神戸教会   [+30 wikidata, +20 wikipedia, +5 name:en]
+    66  memorial         神戸港震災メモリアルパーク   [+30 wikidata, +20 wikipedia, +5 name:en, +5 start_date]
+    67  library          神戸市立中央図書館   [+30 wikidata, +20 wikipedia, +5 name:en]
+    70  shrine           走水神社   [+30 wikidata, +20 wikipedia]
+    70  shrine           花隈厳島神社   [+30 wikidata, +20 wikipedia]
+    70  museum           神戸市水の科学博物館   [+30 wikidata, +20 wikipedia]
+    70  temple           本願寺神戸別院 (モダン寺)   [+30 wikidata, +20 wikipedia]
+    70  attraction       旧小寺家厩舎   [+30 wikidata, +20 wikipedia]
+    70  attraction       旧ハッサム住宅   [+30 wikidata, +20 wikipedia]
+    70  museum           戦没した船と海員の資料館   [+30 wikidata, +20 wikipedia]
+    70  shrine           小野八幡神社   [+30 wikidata, +20 wikipedia]
+    70  temple           専称寺   [+30 wikidata, +20 wikipedia]
+    70  shrine           出雲大社神戸分祠   [+30 wikidata, +20 wikipedia]
+    70  shrine           三宮神社   [+30 wikidata, +20 wikipedia]
+    70  attraction       サッスーン邸   [+30 wikidata, +20 wikipedia]
+    72  theatre          松方ホール   [+30 wikidata, +20 wikipedia, +5 name:en, +5 website]
+    75  attraction       萌黄の館   [+30 wikidata, +20 wikipedia, +5 name:en]
+    75  attraction       船屋形   [+30 wikidata, +20 wikipedia, +5 name:en]
+    75  museum           神戸華僑歴史博物館   [+30 wikidata, +20 wikipedia, +5 name:en]
+    75  museum           神戸市立博物館   [+30 wikidata, +20 wikipedia, +5 name:en]
+
+★★★ notable  (21 named places)
+  highest:
+    50  attraction       パラスティン邸   [+30 wikidata]
+    50  viewpoint        ヴィーナスブリッジ   [+30 wikidata, +5 name:en]
+    46  artwork          BE KOBE   [+30 wikidata, +5 name:en, +5 start_date]
+    42  monument         愛の鍵モニュメント   [+30 wikidata]
+    35  aquarium         アトア   [+5 website, +5 start_date]
+    27  cafe             ラトローブ   [+5 name:en, +5 website, +5 start_date]
+    27  library          三宮図書館   [+5 name:en, +5 website, +5 start_date]
+    25  attraction       D51 1072   [+5 name:en]
+    25  attraction       うろこの家   [+5 name:en]
+    25  museum           うろこ家美術館   [+5 name:en]
+    25  museum           ウィーン・オーストリアの家   [+5 name:en]
+    25  museum           ザ・テディベアミュージアム   [+5 name:en]
+    25  attraction       デンマーク館   [+5 name:en]
+    25  attraction       北野 異人館街   [+5 name:en]
+    25  attraction       北野外国人倶楽部   [+5 name:en]
+    25  park             新港第２突堤緑地   [+5 start_date, +8 area>=20k m2]
+    25  attraction       旧パナマ領事館   [+5 name:en]
+    25  attraction       旧中国領事館   [+5 name:en]
+    25  park             磯上公園   [+5 name:en, +8 area>=20k m2]
+    25  attraction       西安門   [+5 name:en]
+    25  shrine           諏訪神社   [+5 name:en]
+
+★★ local  (420 named places)
+  highest:
+    23  restaurant       神戸牛鉄板焼き 大地   [+5 name:en, +5 website, +5 description]
+    22  cafe             JAZZ喫茶 jamjam   [+5 name:en, +5 website]
+    22  cafe             Kobe ニューワールド   [+5 name:en, +5 start_date]
+    22  cafe             Sabo Voice   [+5 name:en, +5 website]
+    22  cafe             cat cafe nyanny   [+5 name:en, +5 website]
+    22  cafe             オスロコーヒー   [+5 name:en, +5 website]
+    22  cafe             ケーニヒス クローネ   [+5 name:en, +5 website]
+    22  public_bath      神戸みなと温泉 蓮   [+5 name:en, +5 website]
+    21  artwork          ユーモアディスプレイ   [+5 name:en, +5 website, +5 start_date]
+    20  restaurant       KOBE BEEF DINING モーリヤ   [+5 name:en, +5 website, +2 opening_hours]
+    20  bar              ソネ   [+5 name:en, +5 website, +2 opening_hours]
+    20  museum           ダルビッシュ コート   []
+    20  restaurant       モーリヤ   [+5 name:en, +5 website, +2 opening_hours]
+    20  restaurant       モーリヤ   [+5 name:en, +5 website, +2 opening_hours]
+    20  ice_cream        リッチョドーロ   [+5 name:en, +5 website]
+    20  attraction       レイン邸   []
+    20  restaurant       ロイヤルモーリヤ   [+5 name:en, +5 website, +2 opening_hours]
+    20  shrine           一宮神社   []
+    20  shrine           二宮神社   []
+    20  temple           光尊寺   []
+    20  temple           光明地蔵   []
+    20  temple           光輪寺   []
+    20  temple           創価学会   []
+    20  attraction       北野東洋館   []
+    20  shrine           北野青龍神社・三森稲荷神社   []
+    20  attraction       南京町広場   []
+    20  temple           善照寺   []
+    20  temple           地蔵堂   []
+    20  attraction       坂の上の異人館   []
+    20  temple           報恩寺   []
+  lowest:
+    12  bakery           食ぱんの店 春夏＋秋冬   []
+    12  cafe             観音山フルーツパーラー   []
+    12  cafe             観音屋   []
+    12  cafe             藤   []
+    12  cafe             茶茶   []
+    12  cafe             茶房ナイル   []
+    12  cafe             茜屋珈琲店   []
+    12  cafe             芸夢   []
+    12  cafe             花隈オフィス   []
+    12  fast_food        老祥記   [+5 name:en, +2 opening_hours]
+    12  cafe             純   []
+    12  park             筒井公園   []
+    12  park             神若公園   []
+    12  monument         神戸港駅の記憶   []
+    12  monument         神戸港港島トンネル旧料金所跡   []
+    12  theatre          神戸市立葺合文化センター 大ホール   []
+    12  supermarket      神戸グロサーズ神戸本店   [+5 name:en, +5 website, +2 opening_hours]
+    12  public_bath      相生湯   []
+    12  park             生田町公園   []
+    12  cafe             珈琲潮   []
+    12  cafe             珈琲庵 るぴなす   []
+    12  cafe             珈琲屋OB   []
+    12  cafe             珈琲ハウス・プラハ   []
+    12  cafe             珈琲 利休庵   []
+    12  cafe             熱砂   []
+    12  cafe             春秋   []
+    12  park             春日野公園   []
+    12  cafe             日本茶カフェ やわやわ   []
+    12  cafe             御影 ダンケ   []
+    12  park             山本通小公園   []
+
+★ hidden  (1223 named places)
+  highest:
+    11  artwork          "GIRL ON A DOLPHIN"   [+5 start_date]
+    11  artwork          KOBE KAIENTAI   [+5 name:en]
+    11  artwork          MAN   [+5 start_date]
+    11  artwork          WOMAN   [+5 start_date]
+    11  memorial         「東郷井」石碑跡   [+5 description]
+    11  artwork          エルヴィス・プレスリーの銅像   [+5 name:en]
+    11  artwork          オルタンシアの鐘   [+5 name:en]
+    11  artwork          ボードワン領事像   [+5 name:en]
+    11  books            古本の読尊   [+5 name:en]
+    11  books            大垣書店   [+5 name:en]
+    11  memorial         日本マラソン発祥の地   [+5 name:en]
+    11  artwork          暁の海より   [+5 start_date]
+    11  memorial         滝山城跡   [+5 name:en]
+    11  artwork          狛犬   [+5 description]
+    11  artwork          老人   [+5 start_date]
+    11  artwork          蒼天の塔   [+5 name:en]
+    11  memorial         鎮魂の碑   [+5 start_date]
+    10  restaurant       2Brothers Pizza   [+2 opening_hours]
+    10  restaurant       ALISHA   [+2 opening_hours]
+    10  restaurant       ALOK   [+2 opening_hours]
+    10  restaurant       COM VIET NAM   [+2 opening_hours]
+    10  restaurant       Del Papa   [+2 opening_hours]
+    10  ice_cream        Ju-c-100%   []
+    10  ice_cream        L'AVENUE BIS   []
+    10  ice_cream        Roy   []
+    10  restaurant       Steakland Kobe   [+2 opening_hours]
+    10  restaurant       Thallo   [+2 opening_hours]
+    10  fast_food        Wanto burger   [+5 name:en]
+    10  restaurant       あき山   [+2 opening_hours]
+    10  restaurant       いっとっ亭   [+2 opening_hours]
